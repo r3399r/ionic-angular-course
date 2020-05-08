@@ -1,9 +1,9 @@
 #container {
-  text-align: center;
+  left: 0;
 
   position: absolute;
-  left: 0;
   right: 0;
+  text-align: center;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -14,10 +14,10 @@
 }
 
 #container p {
-  font-size: 16px;
-  line-height: 22px;
 
   color: #8c8c8c;
+  font-size: 16px;
+  line-height: 22px;
 
   margin: 0;
 }
