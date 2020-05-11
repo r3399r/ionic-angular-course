@@ -9,7 +9,14 @@ const routes: Routes = [
   },
   {
     path: 'recipes',
-    loadChildren: () => import('./recipes/recipes.module').then( m => m.RecipesPageModule)
+    children: [{
+      path: '',
+      loadChildren: () => import('./page/recipes/recipes.module').then(m => m.RecipesPageModule)
+    }
+      , {
+      path: ':recipeId',
+      loadChildren: () => import('./page/recipe-detail/recipe-detail.module').then(m => m.RecipeDetailPageModule)
+    }]
   },
 ];
 

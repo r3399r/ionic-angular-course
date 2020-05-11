@@ -2,7 +2,7 @@
   "extends": "tslint:recommended",
   "rulesDirectory": ["codelyzer"],
   "linterOptions": {
-    "exclude": ["dist", "node_modules", "coverage"]
+    "exclude": ["www", "node_modules", "coverage"]
   },
   "rules": {
     "array-type": false,
