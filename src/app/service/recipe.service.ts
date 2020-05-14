@@ -13,7 +13,7 @@ export class RecipeService {
   }, {
     id: 'r2',
     title: 'spaghatti',
-    imageUrl: 'https://img.buzzfeed.com/thumbnailer-prod-us-east-1/8fc00a45259a49d49d9100a34f2087eb/BFV44742_PantryPasta_FB_Final.jpg',
+    imageUrl: 'https://d3l76hx23vw40a.cloudfront.net/recipe/bk154-010.jpg',
     ingredients: ['noodles', 'tomato']
   }];
 

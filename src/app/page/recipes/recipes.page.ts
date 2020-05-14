@@ -17,7 +17,5 @@ export class RecipesPage implements OnInit {
   }
 
   ngOnInit() {
-
   }
-
 }
